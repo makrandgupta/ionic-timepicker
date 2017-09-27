@@ -142,10 +142,10 @@ angular.module('ionic-timepicker.provider', [])
           }
         });
 
-        // buttons.push({
-        //   text: $scope.mainObj.closeLabel,
-        //   type: 'button_close'
-        // });
+        buttons.push({
+          text: $scope.mainObj.closeLabel,
+          type: 'button_close'
+        });
 
         $scope.popup = $ionicPopup.show({
           templateUrl: 'ionic-timepicker.html',
